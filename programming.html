@@ -1,0 +1,232 @@
+<!-- NAME: Hasani Killiebrew
+    PROG PURPOSE: Assignment.
+-->
+<html lang="en">
+    <head>
+        <title>Algorithms & Software testing</title>
+    </head>
+    
+    <style>
+        a {text-decoration: none; }
+        a:link {color: #1414f3;}
+        a:visited {color: #5d5bff}
+        a:hover {color: #2e106e;}
+        a:active {color: #3d9fdb;}
+    </style>
+
+    <body style="color:#1e1f1f; background-color:#fcd3f1; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+
+        
+
+    <table border="1" style="text-align:left;" width: 100% >
+        <tr style="font-weight: bold; font-size: 120%;" > 
+
+            
+
+            <tr style="background-color:#8469c7;color:#ffffff;">
+            <td colspan="2"><h1> Chapter 5: Programming Algorithms & Sofware Testing</h1></td> 
+            </tr>
+    
+            <tr style="background-color:#9f7ff1;color:#f0f0f0;">
+            <td colspan="2"><h3> Phases of computer program development: </h3></td>
+            </tr>
+
+        <tr style="background-color:#9dc6ec;color:#000000;">
+            <td colspan="2">Phase 1: Understand the problem</td>
+            </tr>
+                
+        <tr style="background-color:#9dc6ec;color:#000000;">
+            <td colspan="2">Phase 2: Design an algorithm to solve the problem</td>
+            </tr>
+
+        <tr style="background-color:#9dc6ec;color:#000000;">
+            <td colspan="2">Phase 3: Write the program code in appropriate language based on the algorithm</td>
+            </tr>
+
+        <tr style="background-color:#9dc6ec;color:#000000;">
+            <td colspan="2">Phase 4: Enter the program and save</td>
+            </tr>
+
+
+        <tr style="background-color:#9dc6ec;color:#000000;">
+            <td colspan="2">Phase 5: Execute the program</td>
+            </tr>
+
+        <tr style="background-color:#9dc6ec;color:#000000;">
+            <td colspan="2">Phase 6: Test the program, find errors and debug, then retest</td>
+            </tr>
+
+        <tr style="background-color:#9dc6ec;color:#000000;">
+            <td colspan="2">Phase 7: Document and evaluate the program</td>
+            </tr>
+
+            <tr style="background-color:#9f7ff1;color:#f0f0f0;">
+        <td colspan="2"><h3> Programming structures: </h3></td>
+        </tr>
+
+
+        <tr style="background-color:#9dc6ec;color:#000000;">
+            <td colspan="2">Sequential structure: Top-down execution</td>
+            </tr>
+
+
+
+
+        <tr style="background-color:#9dc6ec;color:#000000;">
+            <td colspan="2">Decision structures: if/then/else</td>
+            </tr>
+
+                <tr style="background-color:#c7d9ea;color:#000000;">
+                    <td>Iterative (Looping):</td>
+                    <td>While loop:
+                    <ul> <li>Continue looping as long something is true. </li> </ul>
+                
+                    Repeat/until loop:
+                <ul> <li> Continue looping until something is true</li> </ul>
+                For loop:
+                <ul><li>Loop a given number of times</li></ul>
+                 </td> </tr>
+
+                 <tr style="background-color:#c7d9ea;color:#000000;">
+                    <td>Recursive structures:</td>
+                    <td>Repeat a set of instructions as a subtask of itself 
+                   
+                
+                   <p> Repetition conntinues until:</p>
+                <ul> <li> Degenerative case, which is a termination condition, is met (degenerative case is also called a "base case")</li> </ul>
+                 </td> </tr>
+        
+                 <tr style="background-color:#9f7ff1;color:#f0f0f0;">
+                 <td colspan="2"><h3> Two classic programming/database problems </h3></td>
+                 </tr>
+
+                 <tr style="background-color:#c7d9ea;color:#000000;">
+                    <td>Sorting: Descending order/Ascending order</td>
+                    <td>Sorting numbers
+                        <p>
+                        Sorting strings (in accordance with ASCII values)</p>
+                 </td> </tr>
+
+                 <tr style="background-color:#c7d9ea;color:#000000;">
+                    <td>Searching: find specific data that mett a certain criteria</td>
+                    <td>In database:
+                    <ul> <li>Filters: temporary search</li> </ul>
+                    <ul><li>Queries: search criteria are saved so they don't have to be recreated</li></ul>
+                 </td> </tr>
+
+
+                 <tr style="background-color:#c7d9ea;color:#000000;">
+                    <td>Two popular search techniques:</td>
+                    <td>Sequential search:
+                    <ul> <li>Search from top to bottom or bottom to top, one item at a time</li> </ul>
+                    Binary search:
+                    <ul><li>Only works if data is SORTED first</li></ul>
+                    <ul> <li>Start in the middle, then go to half of the, etc.</li></ul>
+                 </td> </tr>
+
+                 <tr style="background-color:#9f7ff1;color:#f0f0f0;">
+                 <td colspan="2"><h3> Two classic program goals:</h3> </td>
+                 </tr>
+
+
+                 <tr style="background-color:#9dc6ec;color:#000000;">
+                    <td>Efficiencey:</td>
+                    <td>Program takes minimal time and/or resources
+                    </td> </tr>
+                    
+
+                    <tr style="background-color:#9dc6ec;color:#000000;">
+
+                        <td>Correctness: </td>
+                        <td> Program runs in expected ways and works for all expected conditions>
+                     </td> </tr>
+
+                     <tr style="background-color:#9f7ff1;color:#f0f0f0;">
+                 <td colspan="2"><h3> Software Testing and Verification</h3></td> </tr>
+                 <tr><th style="background-color:#9dc6ec;color:#000000;"> Terms </th>
+                 <th style="background-color:#9dc6ec;color:#000000;"> Definitions </th></tr>
+
+
+
+<tr style="background-color:#c7d9ea;color:#000000;">
+    <td>Kinds of tests:</td>
+    <td>Acceptance testing:
+    <ul> <li>Verifying whether the whole system works as intended. </li> </ul>
+
+
+    Integration testing:
+<ul> <li> Ensuring that software components or functions operate together.</li> </ul>
+
+Unit testing:
+<ul> <li> Validating that each software unit performs as expected. A unit is the smallest testable component of an application.</li> </ul>
+
+
+Functional testing:
+<ul> <li> Checking functions by emulating business scenarios, based on functional requirements.
+     Black-box testing is a common way to verify functions.<li> </ul>
+
+Performance testing:
+<ul> <li> Testing how the software performs under different workloads. 
+    Load testing, for example, is used to evaluate performance under real-life load conditions.</li> </ul>
+
+Regression testing:
+<ul> <li> Checking whether new features break or degrade functionality. Sanity testing can be used to verify menus, functions 
+    and commands at the surface level, when there is no time for a full regression test. </li> </ul>
+
+Stress testing:
+<ul> <li> Testing how much strain the system can take before it fails. Considered to be a type of non-functional testing.</li> </ul>
+
+Usability testing:
+    <ul> <li> Validating how well a customer can use a system or web application to complete a task.
+    </li> </ul> </td> </tr>
+
+
+    <tr style="background-color:#c7d9ea;color:#000000;">
+        <td>Software testing is done to detect:</td>
+        <td> <ul> <li>Architectural flaws</li> 
+        <li> Poor design decisions </li>
+        <li> Invalid or incorrect functionality </li>
+        <li>Security vulnerabilities </li>
+        <li>Scalability issues</li> </ul>  </td> </tr>     
+
+    
+
+
+        <tr style="background-color:#c7d9ea;color:#000000;">
+           
+            <td> Testing best practices:</td>
+            <td> Continous testing
+            <ul> <li>Project teams test each build as it becomes available. This type of software testing relies on test automation that is integrated with the deployment process. It enables software to be validated in realistic test environments earlier in the process
+                 – improving design and reducing risks.</li> </ul>
+        
+            Configuration management
+        <ul> <li> 
+            Organizations centrally maintain test assets and track what software builds to test. Teams gain access to assets such as code, requirements, design documents, models, test scripts and test results. 
+            Good systems include user authentication and audit trails to help teams meet compliance requirements with minimal administrative effort. </li> </ul>
+        
+            Service virtualization
+            <ul> <li> Testing environments may not be available, especially early in code development. Service virtualization simulates the services and systems that are missing or not yet completed, 
+                enabling teams to reduce dependencies and test sooner.
+            </li> </ul>
+        
+            Defect or "bug tracking"
+            <ul> <li> Monitoring defects is important to both testing and development teams for measuring and improving quality.
+                 Automated tools allow teams to track defects, measure their scope and impact, and uncover related issues.
+            </li> </ul>
+
+
+        Metrics and reporting
+        <ul> <li> Reporting and analytics enable team members to share status, goals and test results. Advanced tools integrate project metrics and present results in a dashboard. 
+            Teams quickly see the overall health of a project and can monitor relationships between test, development and other project elements.
+        </li> </ul> </td> </tr>
+
+        <tr style="background-color:#9dc6ec;color:#000000;">
+            <td>These definitions are from: </td>
+             <td><a href= "https://www.ibm.com/topics/software-testing" > IBM: What is software testing? </a>
+       
+               </td> </tr>
+                
+        </table>
+
+    </body>
+</html>
